@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "scripts":{
+    "test": "echo\"Error: no test specifield\"&& exit1",
+    "start": "lite-server",
+     "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

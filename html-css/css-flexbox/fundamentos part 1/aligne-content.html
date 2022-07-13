@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Fundamentos - align content</title>
+        <style>
+            .container{
+                height: 350px;
+                max-width: 300px;
+               
+                display: flex;
+                flex-wrap: wrap;
+                border: solid 1px black;
+            }
+            .item{
+                background-color: orange;
+                padding: 5px;
+                flex: 1;
+                text-align: center;
+                color: white;
+                border: solid red 1px;
+                margin: 5px;
+            }
+            .strech{
+                align-content: stretch;
+            }
+            .center{
+                align-content: center;
+            }
+            .start{
+                align-content: flex-start;
+            }
+            .end{
+                align-content: flex-end;
+            }
+            .space-around{
+                align-content: space-around;
+            }
+            .space-beteween{
+                align-content: space-between;
+            }
+        </style>
+	</head>
+	<body>
+        <p>Strech</p>
+        <div class="container strech">
+            <div class="item">sdfoiauhsodifuha iausdhfoiuah</div>
+            <div class="item">asdasdufgoaiusdgafs</div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref ,aihsfuwbejf, asdfasfds.</div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref  </div>
+        </div>
+        <p> Center </p>
+        <div class="container center">
+            <div class="item">sdfoiauhsodifuha iausdhfoiuah</div>
+            <div class="item">asdasdufgoaiusdgafs</div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref ,aihsfuwbejf, asdfasfds.</div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref  </div>
+        </div>
+        <p> Flex - start</p>
+        <div class="container start">
+            <div class="item">sdfoiauhsodifuha iausdhfoiuah</div>
+            <div class="item">asdasdufgoaiusdgafs</div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref ,aihsfuwbejf, asdfasfds.</div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref  </div>
+        </div>
+        <p> Flex - end</p>
+        <div class="container end">
+            <div class="item">sdfoiauhsodifuha iausdhfoiuah</div>
+            <div class="item">asdasdufgoaiusdgafs</div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref ,aihsfuwbejf, asdfasfds.</div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref  </div>
+        </div>
+        <p> space-around</p>
+        <div class="container space-around">
+            <div class="item">sdfoiauhsodifuha iausdhfoiuah</div>
+            <div class="item">asdasdufgoaiusdgafs</div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref ,aihsfuwbejf, asdfasfds.</div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref  </div>
+        </div>
+        <p> space-beteween</p>
+        <div class="container space-beteween">
+            <div class="item">sdfoiauhsodifuha iausdhfoiuah</div>
+            
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref ,aihsfuwbejf, asdfasfds.</div>
+            
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref </div>
+            <div class="item">yegowuigr, uwehfru7hweuf, oiaienf0ref  </div>
+        </div>
+	</body>
+	</html>

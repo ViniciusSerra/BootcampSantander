@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Fundamentos - aling itens</title>
+        <style>
+            .container{
+                max-width: 350px;
+                border: 1px solid black;
+                display: flex;
+            }
+            .item{
+                background-color: aquamarine;
+                margin: 5px;
+                color: white;
+                text-align: center;
+                flex: 1;
+            }
+            .flex{
+                flex: 1;
+            }
+            .center{
+                align-items: center;
+            }
+            .strectch{
+                align-items: stretch;
+            }
+        </style>
+    </head>
+    <body>
+        <p>Center</p>
+        <section class="container center flex">
+            <div class="item">item 1</div>
+            <div class="item">iaosdo oiashdoisahdo iaoshd</div>
+            <div class="item">Item 3 asdfa adsfwerqwer</div>
+        </section>
+        <p>strectch</p>
+        <section class="container strectch">
+            <div class="item">item 1</div>
+            <div class="item">iaosdo oiashdoisahdo iaoshd</div>
+            <div class="item">Item 3 asdfa adsfwerqwer</div>
+        </section>
+
+    </body>
+</html>

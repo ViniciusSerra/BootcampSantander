@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+           <meta charset="uft-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1">
+           <title>Fundamentos - aling Items </title>
+           <style>
+               .container{
+                   max-width: 350px;
+                   border: 1px solid black;
+                   display: flex;
+                }
+                .item{
+                    background-color: blueviolet;
+                    margin: 5px;
+                    color:white;
+                    text-align: center;
+                    flex: 1;
+                }
+                .center{
+                    align-items: center;
+                }
+                .flex{
+                    flex: 1;
+                }
+                .stretch{
+                    align-items: stretch;
+                }
+                .flex-start{
+                    align-items: flex-start;
+                }
+                .flex-end{
+                    align-items: flex-end;
+                }
+                .base-line{
+                    align-items: baseline;
+                }
+                .column{
+                    flex-direction: column;
+                }
+                .central{
+                    height: 300px;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .central .item{
+                    flex: 0;
+                    padding: 20px\;
+                }
+           </style>
+      </head>
+      <body>
+          <h1>How</h1>
+          <center><p>Center</p></center>
+          <section class="container center flex">
+              <div class="item"> item 1</div>
+              <div class="item"> algumas palavras para preenchimento de texto</div>
+              <div class="item">item 3 mais uns t</div>
+          </section>
+          <center><p>Strech</p></center>
+          <section class="container center stretch">
+                <div class="item">item 1</div>
+                <div class="item"> algumas palavras para preenchimento de texto</div>
+                <div class="item"> item 3 mais um texto</div>
+          </section>
+          <center><p>Flex-start</p></center>
+          <section class="container flex-start">
+              <div class="item"> Item 1 </div>
+              <div class="item"> algumas palavras para preechimento de texto</div>
+              <div class="item">item 3 mais um texto</div>
+          </section>
+          <center><p>Flex-end</p></center>
+          <section class="container flex-end">
+              <div class="item"> Item 1 </div>
+              <div class="item"> algumas palavras para preechimento de texto</div>
+              <div class="item">item 3 mais um texto</div>
+          </section>
+          <center>base line </center>
+          <section class="container base-line">
+            <div class="item"> <br> Item 1 </div>
+            <div class="item"> algumas palavras para preechimento de texto</div>
+            <div class="item">item 3 mais um texto</div>
+        </section>
+        <h1>Column</h1>
+        <section class="container column flex-start">
+            <div class="item"> Item 1 </div>
+            <div class="item"> algumas palavras para preechimento de texto</div>
+            <div class="item">item 3 mais um texto</div>
+        </section>
+        <center><p>Flex-end</p></center>
+        <section class="container  column flex-end">
+            <div class="item"> Item 1 </div>
+            <div class="item"> algumas palavras para preechimento de texto</div>
+            <div class="item">item 3 mais um texto</div>
+        </section>
+        <center><p>Center</p></center>
+          <section class="container center column flex">
+              <div class="item"> item 1</div>
+              <div class="item"> algumas palavras para preenchimento de texto</div>
+              <div class="item">item 3 mais uns t</div>
+          </section>
+          <center>base line </center>
+          <section class="container  column base-line">
+            <div class="item"> <br> Item 1 </div>
+            <div class="item"> algumas palavras para preechimento de texto</div>
+            <div class="item">item 3 mais um texto</div>
+        </section>
+        <center> alinhamento central  </center>
+        <section class="container  central center">
+          <div class="item"> algumas palavras para preechimento de texto turur ruru rurururur</div>
+        </section>
+      </body>  
+    </html>
