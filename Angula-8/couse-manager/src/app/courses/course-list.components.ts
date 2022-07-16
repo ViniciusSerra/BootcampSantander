@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
-import { Course } from "./course";
+import { Course } from "./Course";
+
 
 @Component({
     selector: "app-course-list",
@@ -8,14 +9,14 @@ import { Course } from "./course";
 
 export class courseListComponent implements OnInit{
 
-    courses: Course[] = [];
+    courses: Course [] = [];
     
     ngOnInit(): void{
         this.courses = [
             {
                 id:1,
-                name:"Angular",
-                imageUrl:'',
+                name:"Angular: Form",
+                imageUrl:'./assets/images/forms.png',
                 price: 99.99,
                 code:'XPS-8796',
                 duration: 120,
@@ -23,9 +24,9 @@ export class courseListComponent implements OnInit{
                 releasedate:'August, 2, 2022',
             },
             {
-                id:1,
-                name:"Angular: http",
-                imageUrl:'',
+                id:2,
+                name:"Angular: Http",
+                imageUrl:'./assets/images/http.png',
                 price: 69.99,
                 code:'XPS-2796',
                 duration: 80,
