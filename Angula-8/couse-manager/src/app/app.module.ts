@@ -9,7 +9,8 @@ import { StartComponet } from './courses/star/start.componet';
   declarations: [
     AppComponent,
     courseListComponent,
-    StartComponet
+    StartComponet,
+    
   ],
   imports: [
     BrowserModule

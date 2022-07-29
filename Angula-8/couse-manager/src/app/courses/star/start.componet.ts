@@ -17,4 +17,4 @@ export class StartComponet implements OnChanges {
         this.starWidth = this.rating * 74 /5;
 
     }
-}
+}''
